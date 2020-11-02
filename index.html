@@ -15,7 +15,7 @@
   </head>
   <body>
     <div id="wrapper">
-      <header>
+      <header id="menu">
         <h1 class="left">
           <img src="assets/logo.svg" alt="Logo" />
         </h1>
@@ -27,19 +27,53 @@
             <li><a href="#">Pricing</a></li>
           </ul>
         </nav>
-
+  
         <div class="right">
           <a class="conf">
             <img src="assets/special-button.svg" alt="Special Conference" />
             <span>Special Conf</span>
           </a>
-
-          <!-- https://getavataaars.com/ -->
+           <!-- https://getavataaars.com/ -->
           <img class="avatar" src="assets/avatar.svg" alt="Avatar" />
         </div>
+        
+        <div class="menu-toggle">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </div>
       </header>
+
+      <main>
+        <h1>
+          <span>Develop.</span>
+          <span>Preview.</span>
+          <span>Ship.</span>
+        </h1>
+
+        <div class="buttons">
+          <button>Start Code</button>
+          <button class="outlined">Get a Demo</button>
+        </div>
+
+        <h2>
+          Vercel combines the best developer experience with an obsessive focus on end-user performance.
+            Their platform enables frontend teams to do their best work.
+        </h2>
+      </main>
 
       <footer>Explore the Vercel way</footer>
     </div>
   </body>
+  <script>
+    let show = true;
+
+    const toggle = document.querySelector('.menu-toggle');
+    const header = document.querySelector('header#menu');
+
+    toggle.addEventListener('click', () => {
+      header.classList.toggle('on')
+    })
+    
+  </script>
 </html>
