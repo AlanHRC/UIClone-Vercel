@@ -4,6 +4,8 @@ UI Clone - Vercel (Homepage)
 
 <p align="center"><a href="https://vercel.com">Vercel Homepage</a> UI clone for study purposes.</p>
 
+<p align="center">Taught by Guilherme Rodz.</p>
+
 <hr>
 
 <img src="./assets/vercel.png" />
