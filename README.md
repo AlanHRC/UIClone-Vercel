@@ -2,6 +2,8 @@
 UI Clone - Vercel (Homepage)
 </h1>
 
+<p align="center"><a href="https://alanhrc.github.io/UIClone-Vercel/">View the website clone online.</p>
+
 <p align="center"><a href="https://vercel.com">Vercel Homepage</a> UI clone for study purposes.</p>
 
 <p align="center">Taught by Guilherme Rodz.</p>
@@ -13,6 +15,7 @@ UI Clone - Vercel (Homepage)
 ## Resources
 
 - [x] HTML, SCSS, JS
+- [x] CSS Effects Animation
 - [x] SVG Images
 - [x] Responsiveness
 
